@@ -1,4 +1,4 @@
-pipeline
+pipeline{
 
 agent any
 
@@ -19,4 +19,5 @@ stages{
 			echo "Testing the code in webserver"
 		}
 	}
+}
 }
